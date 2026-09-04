@@ -1,0 +1,3 @@
+- lighthouse check
+- vercel ai agentic score check (https://is-agentic.com/)
+- seo checklist
