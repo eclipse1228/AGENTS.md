@@ -1,0 +1,2 @@
+- (원문)https://arxiv.org/pdf/2609.01481
+- https://github.com/robonuggets
