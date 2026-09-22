@@ -1,0 +1,10 @@
+| 추천      | 스킬                                | 용도                                                  | Codex         | 설치                                                                                            |
+| ------- | --------------------------------- | --------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------- |
+| **1순위** | **`define-goal` — OpenAI 공식**     | 애매한 요구를 측정 가능한 Goal로 변환 + goal 생성                   | ✅             | `npx skills add https://github.com/openai/skills --skill define-goal`                         |
+| **2순위** | **`goal-prompt` — Trail of Bits** | `/goal`이 무한루프/조기종료 안 하게 종료조건·검증·범위 설계               | ✅             | `npx skills add https://github.com/trailofbits/skills --skill goal-prompt`                    |
+| **3순위** | **`goal-forge`**                  | 큰 작업을 `SPEC.md → GOAL.md → /goal` 형태로 컴파일           | ✅ 특히 Codex 지향 | `npx skills add michaelpersonal/goal-forge`                                                   |
+| **4순위** | **`goal-mode`**                   | GOAL.md + worker/verifier 반복 + 테스트 통과까지 검증          | ✅             | `npx skills add shenwell/ai-agent-skills --skill goal-mode -a codex -y`                       |
+| 보조      | `goal-prompt` — imbajin           | context 조사 → fast/deep 선택 → `/goal` 생성              | ✅             | `npx skills add https://github.com/imbajin/goal-prompt --skill goal-prompt`                   |
+| 보조      | `codex-goal-loop`                 | Codex `/goal` 자체의 운영법/상태/루프를 에이전트에게 숙지시킴            | ✅ 전용          | `npx skills add https://github.com/davidondrej/skills --skill codex-goal-loop`                |
+| 보조      | `agent-goal-skill`                | 짧은 요구를 Goal/Context/Constraints/Done/Blocked 구조로 변경 | ✅             | `npx skills add Dallionking/agent-goal-skill`                                                 |
+| 특화      | `prd-to-goal`                     | PRD/Issue → 실행 가능한 `/goal`로 변환                      | ✅             | `npx skills add https://github.com/yonatangross/skillforge-claude-plugin --skill prd-to-goal` |
